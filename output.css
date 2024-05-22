@@ -625,10 +625,6 @@ video {
   height: 65px;
 }
 
-.h-\[80px\] {
-  height: 80px;
-}
-
 .h-auto {
   height: auto;
 }
@@ -639,30 +635,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
-.h-\[3000px\] {
-  height: 3000px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[750px\] {
-  height: 750px;
-}
-
-.max-h-\[200px\] {
-  max-height: 200px;
 }
 
 .max-h-\[300px\] {
@@ -701,40 +673,16 @@ video {
   max-width: 48rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
+.max-w-\[85\%\] {
+  max-width: 85%;
 }
 
 .max-w-screen-lg {
   max-width: 1024px;
 }
 
-.max-w-10 {
-  max-width: 2.5rem;
-}
-
-.max-w-40 {
-  max-width: 10rem;
-}
-
-.max-w-32 {
-  max-width: 8rem;
-}
-
-.max-w-sm {
-  max-width: 24rem;
-}
-
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
-}
-
-.max-w-\[85\%\] {
-  max-width: 85%;
 }
 
 .-translate-x-1\/2 {
@@ -756,10 +704,6 @@ video {
 
 .grid-flow-row {
   grid-auto-flow: row;
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-1 {
@@ -802,11 +746,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
 .bg-slate-300\/50 {
   background-color: rgb(203 213 225 / 0.5);
 }
@@ -841,11 +780,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -861,31 +795,14 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -1030,12 +947,12 @@ video {
     max-height: 350px;
   }
 
-  .lg\:max-w-screen-lg {
-    max-width: 1024px;
-  }
-
   .lg\:max-w-md {
     max-width: 28rem;
+  }
+
+  .lg\:max-w-screen-lg {
+    max-width: 1024px;
   }
 
   .lg\:grid-cols-3 {
