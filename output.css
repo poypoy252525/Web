@@ -867,6 +867,10 @@ video {
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .leading-4 {
   line-height: 1rem;
 }
